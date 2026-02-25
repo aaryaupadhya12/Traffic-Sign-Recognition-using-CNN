@@ -4,10 +4,10 @@
 ![Accuracy](https://img.shields.io/badge/Accuracy-98.7%25-green)
 ![Dataset](https://img.shields.io/badge/Dataset-GTSRB-orange)
 
-## 📌 Project Overview
+## Project Overview
 [cite_start]This project focuses on the development of a machine learning program for **Traffic Sign Recognition** using Convolutional Neural Networks (CNN)[cite: 3]. [cite_start]The system is designed to provide a foundation for automated road transportation by identifying traffic signs under various environmental conditions[cite: 7, 11].
 
-## 📊 Data Analysis
+## Data Analysis
 [cite_start]The model is trained on the **German Traffic Sign Recognition Benchmark (GTSRB)** dataset[cite: 14].
 
 * [cite_start]**Dataset Size**: Over 50,000 images in total[cite: 4, 14].
@@ -18,7 +18,7 @@
 
 ![Class Distribution](C:\Users\Aarya-2\Documents\ADOG\AARYA_PERSONAL\PROJECTS\TEMU_NEURIPS\Main_GTSRB_program\IMPORTANT_PROJECTS\Project-Traffic_Signals\Paper-ready-project\output.png)
 
-## 🏗️ Model Architecture
+## Model Architecture
 [cite_start]The approach uses a deep CNN architecture to capture complex image features through multiple layers[cite: 5].
 
 
@@ -34,7 +34,7 @@
 
 ![Model Summary](C:\Users\Aarya-2\Documents\ADOG\AARYA_PERSONAL\PROJECTS\TEMU_NEURIPS\Main_GTSRB_program\IMPORTANT_PROJECTS\Project-Traffic_Signals\Paper-ready-project\CNN_model.png)
 
-## 🚀 Training & Performance
+## Training & Performance
 [cite_start]The model was optimized using the **Adam optimizer** and **Categorical Crossentropy** loss[cite: 74, 76].
 
 * [cite_start]**Early Stopping**: Implemented to halt training when validation loss stopped improving[cite: 77].
@@ -44,11 +44,7 @@
     * [cite_start]**Precision Score**: 0.980 [cite: 97]
     * [cite_start]**Recall Score**: 0.979 [cite: 98]
 
-## 🔍 Challenges & Limitations
+## Challenges & Limitations
 [cite_start]Despite high performance, approximately 1.3% of signs remain undetected due to extreme conditions[cite: 108]:
 * [cite_start]**Distortions**: Signs covered by shadows or tree branches[cite: 109].
 * [cite_start]**Environmental Factors**: Sun gleam or weather conditions making signs unrecognizable to the naked eye[cite: 109, 115].
-
-## 📜 References
-* [cite_start][GTSRB Dataset (Kaggle)](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign) [cite: 117]
-* [cite_start]Educative: Image and Pattern Recognition [cite: 117]
